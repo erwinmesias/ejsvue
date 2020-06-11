@@ -13,6 +13,11 @@
     <hero></hero>
     <div class="container">
       <div class="row">
+        <div class="col-lg-12">
+          <vue-file-agent :uploadUrl="uploadUrl" v-model="fileRecords"></vue-file-agent>
+        </div>
+      </div>
+      <div class="row">
         <div v-for="post in posts" class="col-lg-4 my-2">
           <div class="card w-100 h-100">
             <div class="card-body">

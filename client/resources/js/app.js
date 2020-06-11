@@ -1,6 +1,6 @@
 import Vue from '~/vue';
 import axios from 'axios';
-import Hero from '~/components/Hero'
+import Hero from '~/components/Hero';
 
 new Vue({
   el: '#app',
@@ -9,7 +9,9 @@ new Vue({
   },
   data() {
     return {
-      posts: []
+      posts: [],
+      fileRecords: [],
+      uploadUrl: 'https://example.com',
     }
   },
   async mounted() {
