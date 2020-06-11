@@ -1,0 +1,19 @@
+{
+  "name": "ejsvue",
+  "version": "1.0.0",
+  "description": "A sample Vue implementation using EJS View Engine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwinmesias/ejsvue.git"
+  },
+  "author": "Erwin Mesias <mesiaserwin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erwinmesias/ejsvue/issues"
+  },
+  "homepage": "https://github.com/erwinmesias/ejsvue#readme"
+}
